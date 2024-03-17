@@ -1,0 +1,148 @@
+.name{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    left: 60px;
+    top: 14px;
+    color: darkcyan;
+}
+
+.footer{
+    background-color: darkcyan;
+}
+.box{
+    
+    position: absolute;
+    top: 30px;
+    left: 500px;
+    
+    }
+
+.xx{
+    position: absolute;
+    top: 0.75px;
+    left: 288px;
+    }
+.xx input{
+    background-color: cornflowerblue; 
+    color: darkcyan;
+}
+.href1{
+    background-color:darkcyan;
+    border: 2px solid black;
+    padding-left: 400px;
+    }
+
+
+.text-1{
+    background-color: cadetblue;
+    font-size: x-large;
+    text-align: center;
+}
+.im{
+    width: 260px;
+    height: 350px;
+    border: 2px solid cornflowerblue;
+    overflow: hidden;
+}
+.im img{
+    width: 100%;
+    height: 150px;
+}
+.box2{
+    position: absolute;
+    right: 800px;
+    top: 767px;
+}
+.box3{
+    position: absolute;
+    top: 767px;
+    right: 420px;
+}
+.box4{
+    position: absolute;
+    top: 700px;
+    right: 12px;
+}
+.blok{
+    border: 2px dashed darkgrey;
+    height: 490px;
+    width: 1438px;
+}
+.kat{
+    
+    position: relative;
+    right: -420px;
+    height: 100%;
+    width: 100%;
+}
+.namekat{
+    color: white;
+    position: absolute;
+    right: 1100px;
+    top: 170px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.kat2{
+    
+    position: absolute;
+    right: -9px;
+    top: 140px;
+    height: 100%;
+    width: 100%;
+}
+.namekat2{
+    color: black;
+    position: absolute;
+    right: 1100px;
+    top: 5px;
+    font-size: 34px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.kat5{
+    
+    position: absolute;
+    right: -1050px;
+    top: 150px;
+    height: 100%;
+    width: 100%;
+}
+.kat3{
+    
+    position: absolute;
+    right: -9px;
+    top: 390px;
+    height: 100%;
+    width: 100%;
+}
+.namekat3{
+    color: black;
+    position: absolute;
+    right: 1100px;
+    top: 50px;
+    font-size: 34px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.kat4{
+    
+    position: absolute;
+    right: -1050px;
+    top: 390px;
+    height: 100%;
+    width: 100%;
+}
+.namekat4{
+    color: black;
+    position: absolute;
+    right: 1100px;
+    top: 5px;
+    font-size: 34px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+

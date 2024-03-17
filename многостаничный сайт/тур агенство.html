@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .mynavbar{
+            background-color: coral;
+        }
+        .mylink{
+            color: black;
+        }
+        .mybox{
+            background-color: rgb(74, 46, 46);
+        }
+      
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm mynavbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"> <img src="https://papik.pro/uploads/posts/2022-01/1643605452_1-papik-pro-p-logotip-turagentstva-1.png" width="60" height="50"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link mylink" href="#">Главная</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mylink" href="#"> Туры</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mylink" href="#">Тех. поддержка</a>
+                  </li>  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle mylink" href="#" role="button" data-bs-toggle="dropdown">Контент</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item mylink" href="#">Новости</a></li>
+                      <li><a class="dropdown-item mylink" href="#">Блог</a></li>
+                      <li><a class="dropdown-item mylink" href="#">О нас</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+
+
+
+
+    <br>
+    <br>
+    <main>
+        <h1 class="text-center te" style="color: coral;">Горящие туры <img src="https://t3.ftcdn.net/jpg/02/35/26/30/360_F_235263034_miJw2igmixo7ymCqhHZ7c8wp9kaujzfM.jpg" height="50" width="50"></h1>
+        <br>
+        <!-- Carousel -->
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+    
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/50282433.jpg?k=06256b7b5fddab425d5e3fd07b9fb2d50bd1f202f49ca323afaa07a07f49c3b4&o=&hp=1" alt="Los Angeles" class="d-block" style="width:100%">
+                    <div class="carousel-caption">
+                        <h3>Кемер, Турция</h3>
+                        <p>Magic Sun Hotel, 4 star
+                        <br>
+                        Проживание: 7 ночей
+                        <br>
+                        Питание: Все включено
+                        </p>
+                    </div>
+                </div>
+            <div class="carousel-item">
+                <img src="https://img.poehalisnami.kz/static/hotels/egipet/sharm-el-shejjkh/h465/orig/booking465_1465_637969319967197769.jpg" alt="Chicago" class="d-block" style="width:100%">
+                <div class="carousel-caption">
+                    <h3>Шарм-эль-Шейх, Египет</h3>
+                    <p>Sharm Reef, 3 star
+                    <br>
+                    Проживание: 7 ночей
+                    <br>
+                    Питание: Все включено
+                    </p>
+                </div> 
+            </div>
+            <div class="carousel-item">
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/209738779.jpg?k=dc122d1d5bbfd84d0383484a64d3235b4a8821451f29e9fbac461a22f4ce66a5&o=&hp=1" alt="New York" class="d-block" style="width:100%">
+                <div class="carousel-caption">
+                    <h3>Пхукет, Тайланд</h3>
+                    <p>Mirage Express Patong Phuket Hotel, 3 star
+                    <br>
+                    Проживание: 9 ночей
+                    <br>
+                    Питание: Завтрак
+                    </p>
+                </div>  
+            </div>
+        </div>
+    
+         <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+        <br><br>
+
+
+        <div class="container p-5 my-5" style="background-color: coral; border-radius: 25px; text-align: center">
+            <h1>О чем нужно знать начинающим путешественникам</h1>
+            <p>10 полезных советов для туристов <a href="#" style="text-decoration: none;"><button type="button" class="btn btn-outline-secondary mx-auto d-block">Дальше..</button> </a> </p> 
+            <p>5 важных правил при заселении в отель  <a href="#" style="text-decoration: none;"><button type="button" class="btn btn-outline-secondary mx-auto d-block">Дальше..</button> </a> </p>  
+            <p>Как не опростивоситься в чужой стране  <a href="#" style="text-decoration: none;"><button type="button" class="btn btn-outline-secondary mx-auto d-block">Дальше..</button> </a> </p> 
+            
+          </div>
+          
+          
+          
+        </div>
+    </main>
+    
+    <footer>
+        <div class="container p-5 my-5 ">
+            <div class="container p-5 my-5 mybox" style="color: coral; border-radius: 25px;">
+                <h1>Оставить заявку</h1>
+                <form>
+                    <div class="row">
+                      <div class="col">
+                        <input type="text" class="form-control" placeholder="Enter email" name="email">
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" placeholder="Enter your name and frname" name="frname">
+                      </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </footer>
+  
+ 
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

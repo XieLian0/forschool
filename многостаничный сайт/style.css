@@ -1,0 +1,49 @@
+.parent {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+
+
+
+}
+.menu a{
+    margin: 15px;
+    text-decoration: none;
+    color: aliceblue;
+}
+p{
+    color: aliceblue;
+}
+body{
+    margin: 0;
+}
+
+
+.pr{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+  
+    border-radius: 20px;
+   
+    width: 200px;
+    height: 300px;
+    background-color: rgba(128, 128, 128, 0.83);
+    
+
+}
+.bt{
+    height: 30px;
+    width: 70px;
+    background-color: chocolate;
+    text-align: center;
+}
+.tx{ 
+    display: flex;
+   flex-direction: column;
+   
+
+   
+}
